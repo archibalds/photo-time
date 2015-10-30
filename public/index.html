@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <title>Base template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="css/style.css" rel="stylesheet">-->
+    <link href="css/style.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Photoapp</a>
+            <a class="logo" href="#"><img src="img/logo.png" alt="Photo time"></a>
+            <a href="#">Design</a>
+            <a href="#">Download</a>
+          </nav>
+      
+          <p class="slogan">
+            your life , a photo
+            <span>print your life in a simple photo</span>
+          </p>
+      
+          <p class="text-center"><a href="/" class="button">get started</a></p>
+      
+          <div class="social">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="main-info">
+        <div class="container">
+          <img class="pull-right hidden-sm hidden-xs" src="img/hand.png" alt="">
+      
+          <p class="subtitle">Rappresent your life with a simple photo</p>
+      
+          <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <b>enim ad minim</b> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      
+          <a href="#" class="button">get started</a>
+        </div>
+      </div>
+
+      <div class="slider">
+        <div class="container">
+          <img class="hidden-sm hidden-xs phone-img" src="img/phone.png" alt="">
+      
+          <div class="cycle-slideshow"
+              data-cycle-fx="scrollHorz"
+              data-cycle-timeout="0"
+              data-cycle-slides="> div"
+              data-cycle-prev=".prev"
+              data-cycle-next=".next"
+              data-cycle-overlay-template="0{{slideNum}} / 0{{slideCount}}"
+              >
+              <div class="item">
+                  <p class="subtitle">Design</p>
+      
+                  <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      
+                  <a href="#" class="button">learn more</a>
+              </div>
+              <div class="item">
+                  <p class="subtitle">Design</p>
+      
+                  <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      
+                  <a href="#" class="button">learn more</a>
+              </div>
+              <div class="item">
+                  <p class="subtitle">Design</p>
+      
+                  <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      
+                  <a href="#" class="button">learn more</a>
+              </div>
+              <div class="item">
+                  <p class="subtitle">Design</p>
+      
+                  <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      
+                  <a href="#" class="button">learn more</a>
+              </div>
+              <div class="item">
+                  <p class="subtitle">Design</p>
+      
+                  <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      
+                  <a href="#" class="button">learn more</a>
+              </div>
+              <span class="cycle-overlay"></span>
+              <a href=# class="prev">Prev</a>
+              <a href=# class="next">Next</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="community">
+        <div class="container">
+          <div class="col-sm-4 info item">
+            <img src="img/footer_logo.png" alt="">
+      
+            <p class="title">our community</p>
+      
+            <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          </div>
+          <div class="col-sm-4 item">
+            <img class="img-responsive" src="img/community1.jpg" alt="">
+          </div>
+          <div class="col-sm-4 item">
+            <img class="img-responsive" src="img/community2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="subscribe">
+        <div class="container">
+          <p class="title">subscribe to us community</p>
+      
+          <form action="/">
+            <input class="email" type="text" name="email" placeholder="YOUR EMAIL">
+            <input class="submit" type="submit" value="send">
+          </form>
+        </div>
+      </div>
+
+      <div class="download">
+        <div class="container">
+          <p class="title">Download it</p>
+      
+          <div class="desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+      
+          <p class="button">apple store <span class="apple"></span></p>
+      
+          <p class="button">play store <span class="android"></span></p>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <a href="/" class="logo"><img src="img/footer_logo.png" alt="Photo time"></a>
+          <div class="f-menu">
+            <a href="#">credits</a>
+            <a href="#">privacy</a>
+            <a href="#">our teams</a>
+          </div>
+          <p class="copyright">Copyright by phototime - all right reserved</p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/lib/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/lib/bootstrap.min.js"></script>
+
+    <script src="js/lib/jquery.cycle2.min.js"></script>
+  </body>
+</html>
